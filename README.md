@@ -25,6 +25,7 @@ This project demonstrates how to verify email addresses using **SMTP protocol**,
 
 ## 🔑 Usage
 
+```bash
 const { verifyEmail } = require('./controllers/verify');
 
 // Example
@@ -44,4 +45,6 @@ const result = await verifyEmail("user@gmial.com");
   didyoumean: "user@gmail.com"
 }
 */
+```
 
+---
